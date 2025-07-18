@@ -33,7 +33,7 @@ st.markdown("---")
 st.subheader("2. Default crediticio en Taiwan")
 st.write("Creado a modo de trabajo final para la materia Big Data & Machine Learning de la facultad, este modelo de Random Forests alimentado con datos de 30000 clientes "
          "taiwaneses busca predecir la probabilidad de impago de la tarjeta de credito del cliente el proximo mes. Librerias utilizadas: pandas, scikit-learn, joblib.")
-st.image("taiwan.png") # Reemplaza con una captura de pantalla de tu app
+st.image("taiwan.PNG") # Reemplaza con una captura de pantalla de tu app
 st.write("[Haga click aqui para ver el proyecto en accion](https://taiwan-big-data-app-itapp2x9fdrmeen2w3itqft.streamlit.app/)")
 st.write("[Código Fuente en GitHub](https://github.com/AgustinEsteves2003/Taiwan-Big-Data-App)")
 st.markdown("---")
