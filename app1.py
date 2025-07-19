@@ -22,11 +22,11 @@ st.markdown("---")
 st.header("Mis Proyectos")
 
 # Proyecto 1
-st.subheader("1. en proceso")
-st.write("Una breve descripción del proyecto, qué problema resuelve y qué tecnologías se utilizaron (ej. Pandas, Plotly, Scikit-learn).")
-st.image("https://via.placeholder.com/600x300.png?text=Imagen+del+Proyecto+1") # Reemplaza con una captura de pantalla de tu app
-st.write("[Ver el Proyecto 1 en acción](https://tu-enlace-al-proyecto-1.streamlit.app/)") # Enlace a la app desplegada
-st.write("[Código Fuente en GitHub](https://github.com/tu-usuario/tu-repo-proyecto-1)")
+st.subheader("1. Baja de clientes en empresa de telecomunicaciones")
+st.write("El modelo es un XGBoost que busca detectar aquellos clientes que dejaran el servicio para que la empresa haga un esfuerzo por retenerlos.")
+st.image("telco.PNG") # Reemplaza con una captura de pantalla de tu app
+st.write("[Haga click aqui para ver el proyecto en accion](https://churn-telecomunicaciones-dyrhttuifv7e4phpo9rfqf.streamlit.app/)") # Enlace a la app desplegada
+st.write("[Código Fuente en GitHub](https://github.com/AgustinEsteves2003/churn-telecomunicaciones)")
 st.markdown("---")
 
 # Proyecto 2
