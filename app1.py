@@ -5,19 +5,14 @@ st.set_page_config(page_title="Portafolio de Agustin Esteves", layout="wide")
 
 # --- Encabezado ---
 st.title("¡Hola! Soy Agustin Esteves")
-st.write("Bienvenido/a a mi portafolio de proyectos de Streamlit. Este espacio está dedicado a exhibir mis proyectos en Big Data y Machine Learning, donde aplico técnicas avanzadas para resolver problemas complejos, 
-identificando patrones significativos y generando insights accionables que impactan directamente en la toma de decisiones económicas.")
+st.write("Bienvenido/a a mi portafolio de proyectos de Streamlit. Este espacio está dedicado a exhibir mis proyectos en Big Data y Machine Learning, donde aplico técnicas avanzadas para resolver problemas complejos, identificando patrones significativos y generando insights accionables que impactan directamente en la toma de decisiones económicas.")
 
 st.markdown("---")
 
 # --- Acerca de mí (Opcional) ---
 st.header("Acerca de mí")
-st.write("Soy un estudiante de ultimo año de economia en la Facultad de Ciencias Economicas de la UBA. Mi formación en economía me ha proporcionado una sólida base en análisis cuantitativo, teoría de juegos
-y modelado econométrico, lo que me permite abordar los problemas desde una perspectiva holística y entender el contexto económico detrás de cada conjunto de datos.")
-st.write("""Mi interés en la ciencia de datos surgió al darme cuenta del potencial ilimitado de estas herramientas para mejorar la precisión de las predicciones económicas, optimizar recursos y descubrir
-oportunidades que los métodos tradicionales no pueden revelar. Aprendi a cargar, filtrar y limpiar grandes volumenes de datos con Pandas y a crear modelos de aprendizaje supervisado
-    como Random Forests y XGBoost. Tengo conocimientos intermedios en lenguaje Python y basicos en STATA y R.
-""")
+st.write("Soy un estudiante de ultimo año de economia en la Facultad de Ciencias Economicas de la UBA. Mi formación en economía me ha proporcionado una sólida base en análisis cuantitativo, teoría de juegos y modelado econométrico, lo que me permite abordar los problemas desde una perspectiva holística y entender el contexto económico detrás de cada conjunto de datos.")
+st.write("""Mi interés en la ciencia de datos surgió al darme cuenta del potencial ilimitado de estas herramientas para mejorar la precisión de las predicciones económicas, optimizar recursos y descubrir oportunidades que los métodos tradicionales no pueden revelar. He aprendido a cargar, filtrar y limpiar grandes volumenes de datos con Pandas y a crear modelos de aprendizaje supervisado como Random Forests y XGBoost. Tengo conocimientos intermedios en lenguaje Python y basicos en STATA y R.""")
 st.markdown("---")
 st.header("Mis Proyectos")
 col1, col2 = st.columns(2)
