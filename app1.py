@@ -44,6 +44,6 @@ st.markdown("---")
 # --- Contacto ---
 st.header("Contacto")
 st.write("Puedes conectar conmigo en:")
-st.write("[LinkedIn](https://www.linkedin.com/in/agustin-esteves-0617b22b4/)")
+st.write("[LinkedIn](https://www.linkedin.com/in/agustin-esteves/)")
 st.write("[GitHub](https://github.com/AgustinEsteves2003)")
 st.write("[agustinesteves2003@gmail.com](mailto:agustinesteves2003@gmail.com)")
