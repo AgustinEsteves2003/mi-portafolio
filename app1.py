@@ -1,7 +1,7 @@
 # app.py (o el nombre que le des a tu archivo principal)
 import streamlit as st
 
-st.set_page_config(page_title="Portafolio de Agustin Esteves", layout="wide")
+st.set_page_config(page_title="Portafolio de Agustin Esteves", layout="wide", page_icon="👤")
 
 # --- Encabezado ---
 st.title("¡Hola! Soy Agustin Esteves")
@@ -11,7 +11,7 @@ st.markdown("---")
 
 # --- Acerca de mí (Opcional) ---
 st.header("Acerca de mí")
-st.write("Soy un estudiante de ultimo año de economia en la Facultad de Ciencias Economicas de la UBA. Mi formación en economía me ha proporcionado una sólida base en análisis cuantitativo, teoría de juegos y modelado econométrico, lo que me permite abordar los problemas desde una perspectiva holística y entender el contexto económico detrás de cada conjunto de datos.")
+st.write("Soy un Economista recibido en la Facultad de Ciencias Economicas de la UBA. Mi formación en economía me ha proporcionado una sólida base en análisis cuantitativo, teoría de juegos y modelado econométrico, lo que me permite abordar los problemas desde una perspectiva holística y entender el contexto económico detrás de cada conjunto de datos.")
 st.write("""Mi interés en la ciencia de datos surgió al darme cuenta del potencial ilimitado de estas herramientas para mejorar la precisión de las predicciones económicas, optimizar recursos y descubrir oportunidades que los métodos tradicionales no pueden revelar. He aprendido a cargar, filtrar y limpiar grandes volumenes de datos con Pandas y a crear modelos de aprendizaje supervisado como Random Forests y XGBoost. Tengo conocimientos intermedios en lenguaje Python y basicos en STATA y R.""")
 st.markdown("---")
 st.header("Mis Proyectos")
@@ -47,3 +47,4 @@ st.write("Puedes conectar conmigo en:")
 st.write("[LinkedIn](https://www.linkedin.com/in/agustin-esteves/)")
 st.write("[GitHub](https://github.com/AgustinEsteves2003)")
 st.write("[agustinesteves2003@gmail.com](mailto:agustinesteves2003@gmail.com)")
+
